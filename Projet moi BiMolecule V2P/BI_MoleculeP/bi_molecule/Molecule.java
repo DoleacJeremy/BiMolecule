@@ -37,7 +37,7 @@ public class Molecule {
 		// faire une droite qui passe par les deux positions des molecules qu'elle observe
 		Droite droite = new Droite(this.moleculeUn.getPosition(), this.moleculeDeux.getPosition());
 
-		// abort abort , la droite a un coefficient de 0. je repete ha pas perpendiculaire
+		// la droite a un coefficient de 0. aucune perpendiculaire
 		if (droite.getCoefficient() == 0) {
 			this.position = new Position((float) (Math.random() * 200) + 100, (float) (Math.random() * 200) + 100);
 		} else {
@@ -46,7 +46,7 @@ public class Molecule {
 			Droite perpendiculaire = droite.perpendiculaire(
 					Position.getMilieu(this.moleculeUn.getPosition(), this.moleculeDeux.getPosition()));
 
-			// trouver le plus proche point sur toutes des possibilites precedemment trouver
+			// trouver le plus proche point sur toutes des possibilites trouver
 			this.position = perpendiculaire.getPlusProchePoint(this.position);
 		}
 

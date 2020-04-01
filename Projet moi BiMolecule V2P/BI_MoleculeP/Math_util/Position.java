@@ -43,7 +43,7 @@ public class Position {
 	
 	
 	
-	//recupere le point ce trouvant au millieu du segment [p1,p2]
+	//recupere le point se trouvant au millieu du segment [p1,p2]
 	public static Position getMilieu(Position p1 , Position p2) {
 		float positionX;
 		float xDistanceDesDeuxPoints;

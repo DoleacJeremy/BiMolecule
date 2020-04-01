@@ -64,7 +64,6 @@ public class AmmasMolleculaire {
 	}
 
 	// permet de selectionner les deux autres molecules
-	// (ne peuvent pas etre une seule selectionner deux fois ni la molecule courrante)
 	private void trouverMolecules(int i) {
 
 		int poto1 = (new Random()).nextInt(this.molecules.size());
