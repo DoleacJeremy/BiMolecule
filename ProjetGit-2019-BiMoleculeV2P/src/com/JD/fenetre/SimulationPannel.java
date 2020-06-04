@@ -1,4 +1,4 @@
-package fenetre;
+package com.JD.fenetre;
 
 import java.awt.Color;
 import java.awt.Graphics;
@@ -10,8 +10,8 @@ import java.util.LinkedList;
 import javax.imageio.ImageIO;
 import javax.swing.JPanel;
 
-import Math_util.Position;
-import bi_molecule.AmmasMolleculaire;
+import com.JD.MathUtil.Position;
+import com.JD.core.AmmasMolleculaire;
 
 @SuppressWarnings("serial")
 public class SimulationPannel extends JPanel {

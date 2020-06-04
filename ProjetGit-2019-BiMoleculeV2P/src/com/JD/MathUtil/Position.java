@@ -1,4 +1,4 @@
-package Math_util;
+package com.JD.MathUtil;
 
 public class Position {
 	private float x;

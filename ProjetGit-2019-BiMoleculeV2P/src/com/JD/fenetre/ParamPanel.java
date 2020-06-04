@@ -1,4 +1,4 @@
-package fenetre;
+package com.JD.fenetre;
 
 import java.awt.Color;
 import java.awt.Dimension;

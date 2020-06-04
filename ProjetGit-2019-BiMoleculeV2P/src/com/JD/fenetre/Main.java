@@ -1,4 +1,4 @@
-package fenetre;
+package com.JD.fenetre;
 
 public class Main {
 

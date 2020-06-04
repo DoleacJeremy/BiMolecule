@@ -1,9 +1,9 @@
-package bi_molecule;
+package com.JD.core;
 
 import java.util.LinkedList;
 import java.util.Random;
 
-import Math_util.Position;
+import com.JD.MathUtil.Position;
 
 public class AmmasMolleculaire {
 	private LinkedList<Molecule> molecules;

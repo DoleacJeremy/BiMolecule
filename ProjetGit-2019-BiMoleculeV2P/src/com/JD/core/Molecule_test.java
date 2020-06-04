@@ -1,8 +1,9 @@
-package bi_molecule;
+package com.JD.core;
 
 import static org.junit.Assert.*;
 import org.junit.Test;
-import Math_util.Position;
+
+import com.JD.MathUtil.Position;
 
 public class Molecule_test {
 

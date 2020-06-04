@@ -1,4 +1,4 @@
-package Math_util;
+package com.JD.MathUtil;
 
 import static org.junit.Assert.*;
 import org.junit.Test;

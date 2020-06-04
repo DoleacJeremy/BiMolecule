@@ -1,9 +1,10 @@
-package fenetre;
+package com.JD.fenetre;
 
 import java.awt.Color;
 import java.awt.Dimension;
 import javax.swing.JFrame;
-import bi_molecule.AmmasMolleculaire;
+
+import com.JD.core.AmmasMolleculaire;
 
 @SuppressWarnings("serial")
 public class simulationFenetre extends JFrame implements Runnable{

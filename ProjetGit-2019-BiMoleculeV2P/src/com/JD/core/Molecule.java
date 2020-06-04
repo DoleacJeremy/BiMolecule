@@ -1,7 +1,7 @@
-package bi_molecule;
+package com.JD.core;
 
-import Math_util.Droite;
-import Math_util.Position;
+import com.JD.MathUtil.Droite;
+import com.JD.MathUtil.Position;
 
 public class Molecule {
 	private Position position;
